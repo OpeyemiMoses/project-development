@@ -1,5 +1,91 @@
 body{
     margin: 0;
-    background-color: rgb(95, 93, 93);
-    width: 100vh;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+#header{
+    display: inline-block;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0f0f0f;
+    color: white;
+    width: 100%;
+}
+#profile-picture-main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 2em;
+    text-align: center;
+}
+.ai-prompt{
+    font-size: 1.2em;
+    text-align: center;
+}
+#nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom:5px;
+     padding: 10px 20px;
+    background-color: #d8cbcb;
+    color: white;
+    width: 100%;
+}
+#container{
+    width: 100%;
+}
+.navbar ul{
+    display: inline-block;
+    font-size:1.1em;
+    list-style-type: none;
+    overflow: hidden;
+     width: 100%;
+}
+.navbar li{
+
+float:left;
+padding:20px
+}
+.image-slide{
+   display: inline-block;
+   margin: 5px;
+   border: 3px solid rgb(51, 212, 18);
+   background-color: white;
+   cursor: pointer;
+   
+}
+.image-slide:hover{
+    animation: zoom ease 1s;
+    box-shadow: 0px 0px 4px red;
+
+}
+.label{
+    text-align: center;
+    font-size: 1.1em;
+    font-family: monospace;
+    font-weight: bold;
+}
+@keyframes zoom {
+  100%{
+    transform: scale(1.05);
+  }
+}
+.footer{
+        color: rgb(26, 25, 25);
+        background-color: #d8cbcb;
+        width: 100%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.1em;
+        font-weight: bold;
+        margin-top: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: green;
 }
