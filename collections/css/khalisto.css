@@ -1,0 +1,71 @@
+body{
+    height: 100vh;
+    background-color: black;
+    width: 100%;
+    margin:0px;
+    overflow-x: hidden;
+}
+#head{
+ background-color: rgba(0, 2, 2, 0.897);
+ width: 100%;
+ height: 50px;
+ position: fixed;
+ box-shadow: 0px 0px 7px rgba(221, 75, 189, 0.733);
+ top: 0;
+}
+.yemi{
+    text-align: center;
+    color: rgb(227, 68, 233);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+#container{
+       margin-top: 50px;
+}
+.image-slide{
+   display: inline-block;
+   margin: 5px;
+   border: 3px solid rgb(10, 7, 0);
+   border-radius: 10px;
+   background-color: white;
+   cursor: pointer; 
+   text-align: center;
+   box-shadow: 0px 0px 6px white;
+}
+.label{
+    text-align: center;
+    font-size: 1.1em;
+    font-family: monospace;
+    font-weight: bold;
+}
+.downloadBTN{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.downloadBTN .download{
+    width: 80%;
+    padding: 6px;
+    border: none;
+    background-color: rgb(202, 49, 223);
+    border-radius: 20px;
+    font-size: 1.05em;
+    font-weight: bold;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 2px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.downloadBTN .download:hover{
+       background-color: rgb(113, 29, 124);
+}
+@media (max-width: 600px){
+.image-slide img{
+    width:100%;
+}
+}
